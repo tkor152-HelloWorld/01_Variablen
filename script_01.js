@@ -24,13 +24,17 @@
 
 /* JS ist eine untypisierte Sprache! | untyped */
 
-let test; 
-test = "hallo";
-test = 2;
-test = true;
+// let test; 
+// test = "hallo";
+// test = 2;
+// test = true;
 
-console.log("Datenyp: " + typeof test);
-console.log("Inhalt: " + test);
+// console.log("Datenyp: " + typeof test);
+// console.log("Inhalt: " + test);
 
+/***** 03a Konstanten *******/
 
+const test = "hallo";  // Variable mit KONSTANTEM Inhalt
+test = "hi"; // KEINE neue Zuweisung zur LZ möglich! --> Fehler
+console.log("Inhalt: " + test); // Ausgabe
 
