@@ -22,6 +22,15 @@
 // console.log(familyName);
 // console.log(firstName + " " + familyName);
 
+/***** 03 Deklaration + Wertzuweisung II *******/
+
+let firstName, familyName;
+firstName = prompt("Bitte Vornamen eingeben."); // Wertzuweisung
+familyName = prompt("Bitte Nachnamen eingeben."); // Wertzuweisung
+console.log(firstName + " " + familyName);
+
+console.log("Datenyp: " + typeof firstName);
+
 /* JS ist eine untypisierte Sprache! | untyped */
 
 // let test; 
@@ -34,7 +43,7 @@
 
 /***** 03a Konstanten *******/
 
-const test = "hallo";  // Variable mit KONSTANTEM Inhalt
-test = "hi"; // KEINE neue Zuweisung zur LZ möglich! --> Fehler
-console.log("Inhalt: " + test); // Ausgabe
+// const test = "hallo";  // Variable mit KONSTANTEM Inhalt
+// //test = "hi"; // KEINE neue Zuweisung zur LZ möglich! --> Fehler
+// console.log("Inhalt: " + test); // Ausgabe
 
